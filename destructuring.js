@@ -32,12 +32,14 @@ const person = {
 /*==========================================================================================================================*/
 
 //Before ES6
-var email = user.email;
-var currentAnime = anime[0];
+console.log('Before ES6: ');
+var email_ = user.email;
+var currentAnime_ = anime[0];
 
-console.log(`Before ES6 -> User Email: ${email}, Current Anime: ${currentAnime}`);
+console.log(`Before ES6 -> User Email: ${email_}, Current Anime: ${currentAnime_}`);
 
 //Destructuring
+console.log('Destructuring: ')
 var { email, firstName, lastName: apellido } = user;
 var [currentAnime] = anime;
 var [firstAnime] = anime;
